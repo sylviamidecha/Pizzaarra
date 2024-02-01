@@ -1,3 +1,35 @@
-.head.ab{
- background-color: #eea539;   
+
+nav{
+    background-color: #f4f7fb;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  /* padding: 30px; */
+  padding: 3em 0;
+}
+
+.nav__center ul {
+  display: flex;
+  gap: 4em;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.nav__center ul :hover {
+  background-color: orange;
+  color:white;
+  cursor: pointer;
+
+}
+
+.nav__right {
+  gap: 25px;
+}
+.b-image {
+  margin-right: 5em;
 }
