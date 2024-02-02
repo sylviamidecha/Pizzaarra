@@ -1,6 +1,7 @@
 
 nav{
     background-color: #f4f7fb;
+    padding:2em 0;
 }
 
 .nav__container {
@@ -8,16 +9,13 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-.container {
-  /* padding: 30px; */
-  padding: 3em 0;
-}
+
 
 .nav__center ul {
   display: flex;
-  gap: 4em;
+  /* gap: 2em; */
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .nav__center ul :hover {
@@ -27,9 +25,16 @@ nav{
 
 }
 
+.nav__center ul li{
+    padding: .5em 1.5em;
+}
+
 .nav__right {
   gap: 25px;
 }
 .b-image {
   margin-right: 5em;
+}
+p{
+  padding-top:2em;
 }
