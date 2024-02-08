@@ -8,12 +8,15 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+h1 {
+  font-size: 70px;
+}
 
 .nav__center ul {
   display: flex;
   /* gap: 2em; */
   list-style-type: none;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .nav__center ul :hover {
@@ -41,9 +44,7 @@ p {
 .fresh {
   color: #eea539;
 }
-h2 {
-  padding-top: 12em;
-}
+
 .hero-icon {
   border: solid lightgrey 1px;
   width: 55%;
@@ -74,54 +75,47 @@ h2 {
   color: #f4f7fb;
 }
 
-
-.image-round{
+.image-round {
   background-color: black;
-  border-radius:60%;
+  border-radius: 60%;
   width: 60px;
   height: 60px;
   padding: 20px;
   display: flex;
   align-items: center;
-    justify-content: center;
-
-  
+  justify-content: center;
 }
 
-.image-round-center{
+.image-round-center {
   background-color: black;
-  border-radius:60%;
+  border-radius: 60%;
   width: 60px;
   height: 60px;
   padding: 20px;
   margin: 0 2em;
   display: flex;
   align-items: center;
-    justify-content: center;
-
+  justify-content: center;
 }
 
-.round__container{
+.round__container {
   display: flex;
   align-items: center;
 }
 
-
-.image-card{
+.image-card {
   border: solid black 1px;
   padding: 3em 3em;
-  background-color:#f4f7fb ;
+  background-color: #f4f7fb;
   border: none;
-
-  
 }
 
-#card{
+#card {
   margin: 0 2em;
   padding: 3em 1.8em;
 }
 
-.container__section{
+.container__section {
   display: flex;
   justify-content: space-around;
 }

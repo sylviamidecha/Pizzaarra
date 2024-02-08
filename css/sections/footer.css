@@ -1,0 +1,68 @@
+.hero__container{
+    text-align: center;
+    margin-top:10%;
+}
+.hero__content{
+    color:#eea539;
+}
+.help.img{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+
+    margin: 25% 0;
+    padding: 1em 1em;
+
+    
+}
+.help{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10%;
+
+    
+}
+.help__content{
+    background-color: whitesmoke;
+    padding: 0.9em 4em;
+}
+.footer__container{
+    background-color: black;
+    justify-content: space-around;    
+    display: flex;
+    flex-direction: row;
+margin-top: 10em;
+}
+.footer__content{
+    column-gap: 2em;
+    padding-top: 6%;
+    row-gap: 2em; 
+}
+.links ul li{
+    list-style-type:none ;
+}.links{
+    column-gap: 2em;
+    padding-top: 6%;
+}
+.footer__links{
+    padding-top: 6%;
+    line-gap-override: 2em;
+}
+.Subscribe-button{
+     padding: 3em 3em;
+  
+background-color
+:#eea539;
+color:white;
+}
+
+   
+.email-input{
+    
+  padding: 3em 8em;
+  border: none;
+  margin-top: 2em;
+  outline: none;
+  column-gap: 2em;
+}
